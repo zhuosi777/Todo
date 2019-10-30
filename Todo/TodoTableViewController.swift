@@ -2,7 +2,7 @@
 //  TodoTableViewController.swift
 //  Todo
 //
-//  Created by 森口琢司 on 2019/10/30.
+//  Created by zhuosi777 on 2019/10/30.
 //  Copyright © 2019 zhuosi777. All rights reserved.
 //
 
@@ -73,7 +73,6 @@ class TodoTableViewController: UITableViewController {
         let todo = todos[indexPath.row]
         cell.textLabel?.text = todo.text
         // Configure the cell...
-
         return cell
     }
     
